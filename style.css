@@ -1,0 +1,89 @@
+@font-face{
+	font-family:'font1';
+	src:url(fonts/Oswald-Light.ttf);
+	
+}
+@font-face{
+	
+	src:url(fonts/Oswald-Regular.ttf);
+	
+}
+li{
+	list-style-type: none;
+}
+
+body{
+    margin:0;
+}
+header{
+   background-color:DCC6BF;
+   padding:70px;
+}
+
+header menu{
+	font-family:'font1';
+	display: flex;
+	justify-content: space-between;
+}
+.gallery{
+	display:grid;
+	grid-template-columns:50% 50%;
+	margin-left:calc(50% - 559px);
+}
+main{
+	font-family:'font1';
+	text-align:center;
+}
+.gallery div{
+	margin-left:140px;
+}
+.gallery img{
+	margin-bottom: 50px;
+}
+
+.block{
+	display:flex;
+	margin:0 140px;
+}
+
+
+
+.block img{
+	height:500px
+	
+}
+.block div{
+	padding:50px 60px 50px 30px;
+	
+}
+
+footer{
+	background-color:DCC6BF;
+	padding:80px;
+}
+form{
+	font-family:'font1';
+	margin:20px 500px;
+	background-color:DCC6BF;
+	color:white;
+	padding:20px;
+}
+input{
+	margin-bottom:10px;
+	padding:10px;]
+}
+
+ul{
+	padding: 0;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.back{
+	font-size:30px;
+	padding:20px;
+}
+main ul li{
+	font-size:26px;
+}
